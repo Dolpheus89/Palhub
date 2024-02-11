@@ -10,9 +10,9 @@ header {
     }
 
     #lamballPosition {
-        top: -5rem;
+        top: -7rem;
         left: -7rem;
-        transform: rotate(140deg);
+        transform: rotate(150deg);
     }
 
     #chikipiPosition {
@@ -51,7 +51,7 @@ header {
         }
 
         #lamballPosition {
-            top: -3rem;
+            top: -4rem;
             left: -4rem;
         }
 
@@ -88,7 +88,7 @@ header {
         }
 
         #lamballPosition {
-            top: -4rem;
+            top: -5rem;
             left: -4rem;
         }
 
