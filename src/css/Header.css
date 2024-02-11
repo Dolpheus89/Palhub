@@ -4,18 +4,18 @@ header {
     padding-top: 5rem;
 
     .palsHeader {
-        height: 500px;
+        height: 450px;
         position: absolute;
     }
 
     #lamballPosition {
-        top: -8rem;
+        top: -5rem;
         left: -7rem;
-        transform: rotate(150deg);
+        transform: rotate(140deg);
     }
 
     #chikipiPosition {
-        top: -9rem;
+        top: -7.5rem;
         right: -7rem;
         transform: rotate(220deg);
     }
@@ -25,6 +25,7 @@ header {
         color: #fff;
         text-align: center;
 
+
         p {
             font-size: 1.8rem;
             margin: 2rem 0;
@@ -33,9 +34,118 @@ header {
                 content: "( Déterminez l’enfant d’un couple de Pals ) ";
                 display: block;
                 font-size: 1.5rem;
-                margin-top: 1rem;
+                margin: 1rem 0;
             }
         }
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    header {
+        padding-top: 10rem;
+
+        .palsHeader {
+            height: 250px;
+        }
+
+        #lamballPosition {
+            top: -3rem;
+            left: -4rem;
+        }
+
+        #chikipiPosition {
+            top: -4rem;
+            right: -4.5rem;
+        }
+
+        #logoContainer {
+
+            span {
+                display: block;
+            }
+
+            p {
+                font-size: 1.3rem;
+
+                &::after {
+                    font-size: 1rem;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media screen and (min-width:701px) and (max-width:1440px) {
+    header {
+
+        .palsHeader {
+            height: 300px;
+        }
+
+        #lamballPosition {
+            top: -4rem;
+            left: -4rem;
+        }
+
+        #chikipiPosition {
+            top: -5rem;
+            right: -5rem;
+        }
+
+
+        #logoContainer {
+
+            p {
+                font-size: 1.5rem;
+
+                &::after {
+                    font-size: 1.2rem;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media screen and (min-width:3096px) {
+    header {
+        padding-top: 8rem;
+
+        .palsHeader {
+            height: 700px;
+            position: absolute;
+        }
+
+        #logoContainer {
+
+            img {
+                scale: 1.5;
+            }
+
+            p {
+                font-size: 3.5rem;
+                margin-top: 5rem;
+
+                &::after {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+        #lamballPosition {
+            left: -13rem;
+        }
+
+        #chikipiPosition {
+            right: -15rem;
+        }
+
 
     }
 }

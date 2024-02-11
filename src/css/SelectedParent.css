@@ -2,12 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     label {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 150px;
+        width: 12%;
+        max-width: 200px;
+        min-width: 120px;
         aspect-ratio: 50/50;
         margin: 2rem;
     }
@@ -30,4 +33,18 @@
         font-size: 3rem;
     }
 
+}
+
+@media screen and (max-width:500px) {
+    #selectedParentContainer {
+
+        label {
+            margin: 1rem;
+        }
+
+        span {
+            font-size: 2rem;
+        }
+
+    }
 }
