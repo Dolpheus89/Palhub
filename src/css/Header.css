@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 5rem;
+    position: relative;
 
     .palsHeader {
         height: 450px;
