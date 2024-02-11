@@ -20,6 +20,10 @@
     border-radius: 10px;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 
 body {
     background-color: #000;
