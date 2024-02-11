@@ -6,10 +6,32 @@
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffa500;
+    border-radius: 10px;
+}
+
+
 body {
     background-color: #000;
     min-height: 100vh;
     overflow-x: hidden;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .greyTemplate {
@@ -17,6 +39,7 @@ body {
     color: #fff;
     border: 1px solid #808080;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 

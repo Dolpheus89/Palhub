@@ -3,16 +3,30 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 
     label {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 12%;
-        max-width: 200px;
+        max-width: 180px;
         min-width: 120px;
         aspect-ratio: 50/50;
         margin: 2rem;
+
+        img {
+            width: 60%;
+            border-radius: 50%;
+            border: 1px solid #ffa500;
+        }
+
+        p {
+            margin-top: 1rem;
+            text-align: center;
+            font-size: 0.8rem;
+        }
     }
 
     #parent1,
@@ -27,6 +41,7 @@
 
     #result {
         border: 1px solid #ffa500;
+        cursor: context-menu;
     }
 
     span {
@@ -46,5 +61,20 @@
             font-size: 2rem;
         }
 
+    }
+}
+
+
+@media screen and (min-width:2048px) {
+    #selectedParentContainer {
+
+        label {
+            max-width: 300px;
+            min-width: 120px;
+
+            p {
+                font-size: 1.7rem;
+            }
+        }
     }
 }

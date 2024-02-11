@@ -1,0 +1,39 @@
+#searchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    width: 90%;
+    margin-top: 5rem;
+
+    input {
+        cursor: initial;
+        text-indent: 10px;
+
+        &&::placeholder {
+            padding-left: 5px;
+        }
+    }
+}
+
+@media screen and (min-width: 2048px) {
+    #searchContainer {
+        label {
+            font-size: 2rem;
+        }
+
+        input {
+            cursor: initial;
+            text-indent: 10px;
+            height: 30px;
+            width: 250px;
+            font-size: 1.8rem;
+
+            &&::placeholder {
+                font-size: 1.8rem;
+
+            }
+        }
+    }
+}
