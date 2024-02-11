@@ -22,6 +22,10 @@
         }
     }
 
+    #result {
+        border: 1px solid #ffa500;
+    }
+
     span {
         font-size: 3rem;
     }

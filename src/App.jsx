@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './components/Header'
-import SelectParent from './components/SelectParent'
+import SelectedParent from './components/SelectedParent'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       < Header />
       <main>
-        <SelectParent />
+        <SelectedParent />
       </main>
     </>
   )
