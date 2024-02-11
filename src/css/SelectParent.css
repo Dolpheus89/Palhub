@@ -1,0 +1,29 @@
+#selectedParentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        aspect-ratio: 50/50;
+        margin: 2rem;
+    }
+
+    #parent1,
+    #parent2 {
+        position: absolute;
+        display: none;
+
+        &:checked+label {
+            border: 1px solid #ffa500;
+        }
+    }
+
+    span {
+        font-size: 3rem;
+    }
+
+}

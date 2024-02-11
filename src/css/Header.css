@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+
+    .palsHeader {
+        height: 500px;
+        position: absolute;
+    }
+
+    #lamballPosition {
+        top: -8rem;
+        left: -7rem;
+        transform: rotate(150deg);
+    }
+
+    #chikipiPosition {
+        top: -9rem;
+        right: -7rem;
+        transform: rotate(220deg);
+    }
+
+
+    #logoContainer {
+        color: #fff;
+        text-align: center;
+
+        p {
+            font-size: 1.8rem;
+            margin: 2rem 0;
+
+            &::after {
+                content: "( Déterminez l’enfant d’un couple de Pals ) ";
+                display: block;
+                font-size: 1.5rem;
+                margin-top: 1rem;
+            }
+        }
+
+    }
+}
