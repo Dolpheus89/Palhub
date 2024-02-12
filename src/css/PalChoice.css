@@ -39,6 +39,10 @@
     #palChoiceContainer {
         .palContainer {
             min-width: 90px;
+
+            p {
+                font-size: 0.6rem;
+            }
         }
     }
 }
